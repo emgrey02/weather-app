@@ -1,0 +1,110 @@
+body {
+  margin: auto;
+  font-family: "Kanit", sans-serif;
+  background: rgb(49, 45, 45);
+  padding: 1em;
+}
+
+h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #b0b0d4;
+  width: 100%;
+  text-align: center;
+}
+
+.text-cont {
+  max-width: 1000px;
+  margin: auto;
+}
+.text-cont h2 {
+  font-size: 26px;
+  width: 100%;
+  font-weight: 200;
+  letter-spacing: 0.1ch;
+  color: white;
+  padding-block-start: 1em;
+  margin-block: 0;
+  margin: 0;
+}
+.text-cont .time {
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  margin-block-end: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  font-size: 14px;
+}
+form input {
+  font-size: 18px;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: none;
+}
+form input[type=submit] {
+  background-color: grey;
+}
+form input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+form div {
+  display: flex;
+  gap: 0.5em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  height: 500px;
+  max-width: 1000px;
+  gap: 2em;
+  margin-inline: auto;
+}
+.container .group {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(87, 87, 87);
+  border-radius: 0.2em;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.671);
+  background: #b0b0d4;
+}
+.container .group .info,
+.container .group .label {
+  text-align: center;
+}
+.container .group .label {
+  border-top: 2px solid rgba(70, 70, 70, 0.562);
+  font-weight: 200;
+  padding-inline: 1em;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.container .group .info {
+  font-size: 35px;
+  padding-block-start: 1em;
+}
+.container .group .condition-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .group .condition-cont img {
+  width: 80px;
+}/*# sourceMappingURL=style.css.map */
