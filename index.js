@@ -1,4 +1,4 @@
-let baseUrl = 'http://api.weatherapi.com/v1';
+let baseUrl = 'https://api.weatherapi.com/v1';
 const apiKey = '2f77a080fba64a2bb5d11415242601';
 
 let cityText = document.querySelector('h2');
